@@ -387,6 +387,7 @@ Avant de valider un échange, vérifier:
 | Échange refusé | "Impossible: ces joueurs ont déjà été partenaires." |
 | Match annulé | "Match annulé. Il n'affectera pas le classement." |
 | Pas assez de joueurs | "Minimum 4 joueurs requis pour générer une cédule." |
+| Pas assez de temps alloué pour jouer tous les matchs | "Le temps prévue pour les rondes prélimnaires ne permet de réaliser tous les match." | 
 
 ---
 
