@@ -73,6 +73,37 @@ Permettre la saisie rapide et efficace des scores de chaque match, avec validati
 
 ### Score Valide
 
+| Pour les rondes préliminaires 
+1. **A la fin du temps alloué, un gagnant doit avoir au moins 1 point de plus de point que l'adversaire **
+   - Score gagnant: aucun minimum
+   - Exception: prolongation (pas de limite max)
+
+2. **Écart minimum de 1 points**
+   - 9-5 ✅ Valide
+   - 11-10 ✅ Valide
+   - 1-0 ✅ Valide
+
+3. **Les deux scores ne peuvent pas être identiques**
+   - 11-11 ❌ Invalide
+   - 0-0 ❌ Invalide (sauf annulation)
+
+### Messages de Validation
+
+| Situation | Message |
+|-----------|---------|
+| Écart < 1 | "L'écart doit être d'au moins 1 points." |
+| Scores égaux | "Les scores ne peuvent pas être égaux." |
+| Score négatif | "Le score ne peut pas être négatif." |
+
+### Indicateurs Visuels
+
+```
+Score valide:     ✅ 9 - 8
+Score valide:     ✅ 1 - 0
+Score invalide:   ❌ 7 - 7 "Écart insuffisant"
+```
+
+| Pour les séries
 1. **Un gagnant doit avoir au moins 11 points**
    - Score gagnant: minimum 11
    - Exception: prolongation (pas de limite max)
