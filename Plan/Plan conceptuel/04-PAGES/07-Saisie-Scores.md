@@ -74,7 +74,7 @@ Permettre la saisie rapide et efficace des scores de chaque match, avec validati
 ### Score Valide
 
 | Pour les rondes préliminaires 
-1. **A la fin du temps alloué, un gagnant doit avoir au moins 1 point de plus de point que l'adversaire **
+1. **A la fin du temps alloué, un gagnant doit avoir au moins 1 point de plus que l'adversaire**
    - Score gagnant: aucun minimum
    - Exception: prolongation (pas de limite max)
 
